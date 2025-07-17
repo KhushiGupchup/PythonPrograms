@@ -1,0 +1,16 @@
+#Day 5 Countdown Timer
+
+import time
+#step1 :Get User input for countdown start
+start = int(input("Enter number to start countdown from "))
+
+#step 2 : Countdown a while loop
+
+print("\n Countdown begin ⏲️ ")
+while start >0:
+  print(start)
+  time.sleep(2)
+  start -=1
+
+#step 3:Print your message
+print("\n --- Countdown completed 😊😊--- ")
